@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Four</title>
+    <style>
+        .header{
+            height: 80px;
+            width: 100%;
+            background-color: #d1dfda;
+        }
+
+        .slider{
+            height: 400px;
+            width: 100%;
+            background-color: #8f9294;
+        }
+        .content-container{
+            height: 500px;
+            width: 100%;
+            display: flex;
+        }
+        .content{
+            height: 500px;
+            width: 75%;
+            background-color: #f5f5dc;
+        }
+        .sidebar{
+            height: 500px;
+            width: 25%;
+            background-color: #faebd7;
+        }
+        .footer{
+            height: 70px;
+            width: 100%;
+            background-color: #333364;
+        }
+        .footer-top{
+            height: 250px;
+            width: 100%;
+            background-color: #3c3c6e;
+            display: flex;
+            color: #fff;
+            padding-top: 50px;
+        }
+        .left, .center, .right{
+            width: 30%;
+            margin: 0 auto;
+        }
+        .footer p{
+            color:#f0f8ff;
+            text-align: center;
+            font-size: 22px;
+            padding-top: 18px;
+        }
+        input[type="text"], input[type="email"],input[type="password"],input[type="submit"] {
+            height: 30px;
+            width: 200px;
+            background: transparent;
+            border: 1px solid #f2f2f2;
+            padding-left: 5px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        input[type="submit"]{
+            background-color: #faebd7;
+        }
+        input[placeholder]{
+            color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    1. inline CSS  = style attribute 
+    2. internal CSS  = style tag 
+    3. external CSS  = external css file
+    -->
+    <div class="header">
+
+    </div>
+    <div class="slider">
+        <img src="slider.jpg" alt="">
+    </div>
+    <div class="content-container">
+        <div class="content">
+            <h2 style="font-size: 40px;color:#030334">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, inventore.</h2>
+            <p style="font-size:20px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae rerum dignissimos odio rem unde aut accusamus blanditiis delectus vel iure. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae rerum dignissimos odio rem unde aut accusamus blanditiis delectus vel iure.</p>
+        </div>
+        <div class="sidebar"></div>
+    </div>
+    <div class="footer-top">
+        <div class="left">
+            <ol>
+                <li>Home</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>Course</li>
+                <li>About</li>
+            </ol>
+        </div>
+        <div class="center">
+            <ul>
+                <li>Terms and Condition</li>
+                <li>Privacy Policy</li>
+                <li>Refund Policy</li>
+            </ul>
+        </div>
+        <div class="right">
+            <form action="">
+                <input type="text" placeholder="Your Name"><br>
+                <input type="email" placeholder="Your Email"><br>
+                <input type="password" placeholder="Your Password"><br>
+                <input type="submit">
+                <textarea name="" id=""></textarea>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>All Right Reserved Company Name</p>
+    </div>
+
+</body>
+</html>
